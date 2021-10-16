@@ -1,0 +1,27 @@
+body {
+    background: deeppink;
+}
+
+h1 {
+    color: green;
+    font-family: Helvetica;
+}
+
+p {
+    color: pink;
+    font-family: Times New Roman;
+}
+
+a:hover {
+    filter: blur(1px);
+}
+
+.photos img {
+    width: 100%;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
